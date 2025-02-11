@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "esbuild src/index.tsx --bundle --outfile=dist/index.js",
-    "storybook": "storybook dev -p 6006"
+    "storybook": "storybook dev -p 6006",
+    "test-storybook": "test-storybook"
   },
   "keywords": [
     "storybook"
@@ -20,6 +21,7 @@
     "@storybook/addon-interactions": "^8.5.4",
     "@storybook/react-vite": "^8.5.4",
     "@storybook/test": "^8.5.4",
+    "@storybook/test-runner": "^0.21.0",
     "@tsconfig/strictest": "^2.0.5",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
