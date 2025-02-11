@@ -1,0 +1,28 @@
+{
+  "name": "poc-storybook-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --outfile=dist/index.js"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mikihiro SUDA",
+    "email": "suda.mikihiro@gmail.com",
+    "url": "https://github.com/sudame"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.5",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

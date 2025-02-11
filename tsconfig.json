@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/strictest",
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "noEmit": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
