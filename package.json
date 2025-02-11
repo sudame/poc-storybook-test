@@ -18,6 +18,7 @@
     "url": "https://github.com/sudame"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^8.5.4",
     "@storybook/addon-essentials": "^8.5.4",
     "@storybook/experimental-addon-test": "^8.5.4",
     "@storybook/react-vite": "^8.5.4",
